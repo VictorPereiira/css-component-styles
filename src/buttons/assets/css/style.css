@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(241, 241, 241);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+button {
+    background: rgb(23, 190, 59);
+    width: 15em;
+    height: 4em;
+    border: none;
+    border-radius: 0.6em;
+
+    cursor: pointer;
+    transition: 0.3s ease-out;
+
+
+    font-family: 'Cousine';
+    font-size: 0.85em;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+}
+
+button:hover {
+    background: rgb(28, 223, 102);
+}
